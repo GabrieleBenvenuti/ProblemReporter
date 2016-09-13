@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<!--Title-->
+    <TextView
+        android:id="@+id/title_field_textview"
+        android:text="@string/title_field"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp" />
+    <EditText
+        android:id="@+id/title_field_editview"
+        android:layout_below="@id/title_field_textview"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp" />
+<!--Description-->
+    <TextView
+        android:id="@+id/description_field_textview"
+        android:layout_below="@id/title_field_editview"
+        android:text="@string/description_field"
+        android:textSize="18sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp" />
+    <EditText
+        android:id="@+id/description_field_editview"
+        android:layout_below="@id/description_field_textview"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginRight="5sp"
+        android:maxLines="4" />
+<!--Fixed-->
+    <TextView
+        android:id="@+id/fixed_field_textview"
+        android:layout_below="@id/description_field_editview"
+        android:text="@string/fixed_field"
+        android:textSize="16sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5sp"
+        android:layout_marginTop="5sp"
+        android:visibility="invisible" />
+    <CheckBox
+        android:id="@+id/fixed_field_checkbox"
+        android:layout_toRightOf="@id/fixed_field_textview"
+        android:checked="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/fixed_field_textview"
+        android:visibility="invisible" />
+    <Button
+        android:id="@+id/create_report_button"
+        android:text="@string/create_report_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fixed_field_textview"
+        android:layout_centerHorizontal="false"
+        android:layout_marginTop="10sp"
+        android:layout_marginLeft="5sp" />
+</RelativeLayout>

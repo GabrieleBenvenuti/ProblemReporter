@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string name="hello">Hello World, Click Me!</string>
-	<string name="app_name">ProblemReporter.Droid</string>
+  <string name="app_name">Problem Reporter</string>
+  <string name="report_label">Reports</string>
+  <string name="add_new_report_button">Add new report</string>
+  <string name="title_field">Title</string>
+  <string name="description_field">Description</string>
+  <string name="fixed_field">Is fixed?</string>
+  <string name="create_report_button">Create report</string>
+  <string name="update_report_button">Update report</string>
 </resources>
